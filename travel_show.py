@@ -1,6 +1,6 @@
 from pymongo import MongoClient
 # 设置字体，不然无法显示中文
-from pylab import *
+from pylab import mpl,plt
   
 mpl.rcParams['font.sans-serif'] = ['SimHei']
   
